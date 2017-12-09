@@ -1,0 +1,33 @@
+{
+	"timeout":"5",
+	"port":"5007",
+	"ffmpeg_bin":"E:/Progs/ffmpeg/bin/ffmpeg",
+	"ffprobe_bin":"E:/Progs/ffmpeg/bin/ffprobe",
+	"log_level":"WARNING",
+	"channels":[
+		{
+			"name":"Not required",
+			"ip":"224.1.1.1",
+			"port":"5007",
+			"timeout": "5",
+			"log_level": "WARNING"
+		},
+		{
+			"name":"Russia 1",
+			"ip":"224.1.1.2",
+			"port":"5007",
+			"timeout": "5",
+			"log_level": "WARNING",
+			"euristic": "7"
+		},
+		{
+			"name":"russia today",
+			"ip":"224.1.1.3",
+			"port":"5007"
+		},
+		{
+			"ip":"224.1.1.4",
+			"port":"5007"
+		}
+	]
+}
